@@ -1,75 +1,161 @@
-#0065FF<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html>
   <head>
     <title>YouTube.com Clone</title>
-    <style>
-      .thumbnail {
-        width: 300px;
-        display: block;
-      }
 
-      .search-bar {
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-      }
-
-      .video-title {
-        width: 300px;
-      }
-      input{
-          border-radius:6px;
-          margin-bottom: 8;
-          border-color: C5C5C5;
-          border-width:1 ;
-          
-         
-      }
-      .first{
-          height: 40;
-          width:150;
-      }
-      .second{
-          height: 40;
-          width:150;
-      }
-      .third{
-          height: 40;
-          width:300;
-      }
-      .fourth{
-          background-color: 005AFF;
-          
-          color: white;
-          border: none;
-          height: 35;
-          width:300 ;
-          border-radius:6px;
-          border-color: blue;
-          opacity: 0.7;
-          
-      }
-
-      
-    </style>
+<link rel="stylesheet" href="general.css">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="video.css">
+        
   </head>
   <body>
-    <input class="search-bar" type="text" placeholder="Search">
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+      <div class="header"> 
+      <div class="left-section">left section</div>
+      <div class="middle-section"><input class="search-bar" type="text" placeholder="Search">
+      </div>
+      <div class="right-section"> right section</div>
+          
+          </div>
+
+<div class="video-grid">
+        <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="https://i.ytimg.com/vi/n2RNcPRtAiY/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDHkUpyqUwqyWUr0cu8iFpPJmRrUA">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="https://yt3.ggpht.com/lkH37D712tiyphnu0Id0D5MwwQ7IRuwgQLVD05iMXlDWO-kDHut3uI4MgIEAQ9StK0qOST7fiA=s68-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views &#183; 6 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="https://i.ytimg.com/vi/8w7chA9Wnuw/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLBzdj_q_QghjkN_cmHzvsDzjHo37A">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="https://yt3.ggpht.com/ytc/APkrFKbVKeVdgR19Nh6kfvbFFRZZn2_FKaiPaKkIp-inKQ=s68-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Try Not To Laugh Challenge #9
+          </p>
+          <p class="video-author">
+            Markiplier
+          </p>
+          <p class="video-stats">
+            19M views &#183;  years ago
+          </p>
+        </div>
+      </div>
+    </div>
+        <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="https://i.ytimg.com/vi/9GRRND34knI/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLC940PMuHdYOtmOsJ50Yjs6XAuNjQ">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="https://yt3.googleusercontent.com/eu051krrRNQMMi5h6ynfnvhFJzxzSKulJQ42g5v72MQ9Bvv8KdpNIa6yM-0iGpnDgSF0itAD=s100-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Celebrity Special
+          </p>
+          <p class="video-author">
+            Set India
+          </p>
+          <p class="video-stats">
+       6.2M views · 10 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="https://i.ytimg.com/vi/Po3jStA673E/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLBB6tEe7TsRklkaozyYMa2DOVz5Yw">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="https://yt3.ggpht.com/ytc/APkrFKbonI2fEFXVxJYtWEqHjyY2k_i0N9a8CXyYo3lDiA=s68-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            LEO - Official Trailer  Thalapathy Vijay 
+          </p>
+          <p class="video-author">
+            Sun Tv
+          </p>
+          <p class="video-stats">
+            19M views &#183;  years ago
+          </p>
+        </div>
+      </div>
+    </div>
+        <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="https://i.ytimg.com/vi/HY2e-bW0jO0/hq720.jpg?sqp=-oaymwE2CK4FEIIDSEbyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIE8oNTAP&amp;rs=AOn4CLCZkrpy2EntDBbV0t93EJxT_68B6w">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="https://yt3.ggpht.com/0op3NrEEmhcR4jwkCnSNv4PWvHE6kj7He8C2aocxyLfx1Tx-hN1JwmxaUj5O626ooqnWSrCJ=s68-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Best Smartphones  Electronics Gadgets to buy on Flipkart Big Billion Days
 
 
-    <p class="video-title">
-      Talking Tech <strong>and AI with</strong> Google CEO Sundar Pichai!
-    </p>
-    <p class="video-author">
-      Marques Brownlee
-    </p>
-    <p class="video-stats">
-      3.4M views &#183; 6 months ago
-    </p>
-    <input   class="first"type="text"placeholder=" first name">
-        <input class="second" type="text"placeholder=" second name">
-        <input class="third" type="text"placeholder=" Email"> <br>
-        <button class="fourth"> <strong> Sign Up</strong> </button>
-    
+          </p>
+          <p class="video-author">
+            Tech burner 
+          </p>
+          <p class="video-stats">
+            3.4M views &#183; 6 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="https://i.ytimg.com/vi/6EMDN3cHKTg/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLBeVkNJEQYORobT1krf6EtD0xOdvQ">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="https://yt3.ggpht.com/ytc/APkrFKYs3w1PUVYdGe8NHciKOMDzRPMFeKCW9BkLdjToQg=s68-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Biggest Misconception about Gravity 
+          </p>
+          <p class="video-author">
+           Antriksh Tv
+          </p>
+          <p class="video-stats">
+            13.7M views &#183; 1months ago
+          </p>
+        </div>
+      </div>
+    </div>
+</div>
+
   </body>
-  
 </html>
+
